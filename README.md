@@ -1,5 +1,14 @@
 # LaravelAdminMenu
-## 基于Laravel 生成后台管理菜单的package
+<p>基于Laravel 生成后台管理菜单的package<p>
+
+# 截图
+
+<p>菜单展开</p>
+
+<img src="https://laravip.com/github/admin-menu1.png">
+
+<p>菜单折叠</p>
+<img src="https://laravip.com/github/admin-menu2.png">
 
 # 安装
 ````
