@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LaraMall\\Admin\\Menu": "src/"
+            "LaraMall\\Admin\\Menu\\": "src/"
         }
     },
     "minimum-stability": "dev",
