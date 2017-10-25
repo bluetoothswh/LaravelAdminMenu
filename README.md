@@ -1,5 +1,6 @@
 # LaravelAdminMenu
-<p>基于Laravel 生成后台管理菜单的package<p>
+<p>基于Laravel 后台管理菜单生成组件<p>
+
 
 # 截图
 
@@ -36,4 +37,7 @@ php artisan vendor:publish --provider="LaraMall\Admin\Menu\MenuServiceProvier"
 //输出带html标签的后台菜单
 Menu::links()
 ````
+
+# 其他说明
+<p>安装包不包含后台模板 </p>
 
