@@ -178,7 +178,7 @@ return [
 									[
 										'name'=>'礼品卡列表',
 										'tag'=>'admin.card.index',
-										'url'=>url('admin/card'),
+										'url'=>'',
 										'icon'=>'',
 									],
 					],
