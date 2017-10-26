@@ -47,7 +47,7 @@ class Menu
         foreach($this->first as $firstItem){
             $str .= $this->toList() 
                  . $this->toLink($firstItem)
-                 . $this->toSubMenu($firstItem);
+                 . $this->subMenu($firstItem);
         }
         return $str.'</li>';
     }
@@ -91,7 +91,7 @@ class Menu
     |
     |-------------------------------------------------------------------------------
     */
-    public function toSubMenu($item)
+    public function subMenu($item)
     {
         $str     = '<div class="m-menu__submenu">'
                  .'<span class="m-menu__arrow"></span>'
@@ -100,7 +100,7 @@ class Menu
         $subList  = $this->second[$item['page']];
         foreach($subList as $secondItem)
         {
-            $str .= $this->toSubList($secondItem);
+            $str .= $this->subList($secondItem);
         }
 
         return $str.'</ul></div>';
@@ -114,7 +114,7 @@ class Menu
     |
     |-------------------------------------------------------------------------------
     */
-    public function toSubList($item)
+    public function subList($item)
     {
         return '<li class="m-menu__item " aria-haspopup="true" >'
               .'<a  href="'
